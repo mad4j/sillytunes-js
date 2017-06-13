@@ -1,44 +1,58 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
-    <title>SillyTunes</title>
+  <title>SillyTunes</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <audio id="cat" src="audio/cat_meow.mp3"></audio>
-    <audio id="cow" src="audio/cow_moo.mp3"></audio>
-    <audio id="horse" src="audio/horse_neigh.mp3"></audio>
-    <audio id="rooster" src="audio/rooster.mp3"></audio>
-    <audio id="sheep" src="audio/sheep_bleat.mp3"></audio>
-    <audio id="pig" src="audio/pig_oink.mp3"></audio>
+  <meta name="viewport" content="width=device-width, height=device-height">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <style>
+    .container { text-align: center; }
+  </style>
+
+  <audio id="cat" src="audio/cat_meow.mp3"></audio>
+  <audio id="cow" src="audio/cow_moo.mp3"></audio>
+  <audio id="horse" src="audio/horse_neigh.mp3"></audio>
+  <audio id="rooster" src="audio/rooster.mp3"></audio>
+  <audio id="sheep" src="audio/sheep_bleat.mp3"></audio>
+  <audio id="pig" src="audio/pig_oink.mp3"></audio>
+  
 </head>
 
 <body>
-    <button onclick="document.getElementById('cat').play()">
+
+    <div class="container">
+      <button onclick="document.getElementById('cat').play()">
         <img src="icons/cat.png"/>
-    </button>
+      </button>
 
-    <button onclick="document.getElementById('cow').play()">
+      <button onclick="document.getElementById('cow').play()">
         <img src="icons/cow.png"/>
-    </button>
+      </button>
 
-    <button onclick="document.getElementById('horse').play()">
+      <button onclick="document.getElementById('horse').play()">
         <img src="icons/horse.png"/>
-    </button>
+      </button>
 
-    <br/>
+      <br/>
 
-    <button onclick="document.getElementById('pig').play()">
+      <button onclick="document.getElementById('pig').play()">
         <img src="icons/pig.png"/>
-    </button>
+      </button>
 
-    <button onclick="document.getElementById('rooster').play()">
+      <button onclick="document.getElementById('rooster').play()">
         <img src="icons/rooster.png"/>
-    </button>
+      </button>
 
-    <button onclick="document.getElementById('sheep').play()">
+      <button onclick="document.getElementById('sheep').play()">
         <img src="icons/sheep.png"/>
-    </button>
-
+      </button>
+    </div>
 </body>
 
 </html>
